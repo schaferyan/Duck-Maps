@@ -1,0 +1,19 @@
+{
+  "name": "duck-duck-go-scraper",
+  "version": "1.0.0",
+  "description": "Scrape local results in Duck Duck Go Maps",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ryan Schafer",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "git": "^0.1.5",
+    "serpapi": "^2.0.0"
+  }
+}
